@@ -27,7 +27,7 @@ In response to inputs, the thumbsticks should move around to reflect the coordin
 
 ### The server
 
-This repository includes the gamepad server, written in Python 3. To run it, use `pip3 install websockets` and then `python3 server.py [host] [port]`.
+This repository includes the gamepad server, written in Python 3. To run it, use `pip3 install websockets` and then `python3 server.py [host] [port]`. Or, check the `dist` directory for some pre-bundled executables if you don't want to deal with python setup.
 
 Our gamepad data server will immediately begin streaming 60 messages per second upon connection. Each message describes the current state of the gamepad.
 Your application should capture these messages and visually reflect the described gamepad state in the _game controller display widget_.
@@ -59,7 +59,7 @@ Each message is a JSON-encoded object, shaped like this:
 
 1. You can use third-party software, frameworks, templates, and free assets all you like, so long as your solution is your own work. **React and TypeScript** are a plus. Just make sure to properly credit what you use, and obey licenses.
 2. The visuals are all up to you. If it looks pretty, that's a bonus! But functional is fine: we will mainly judge your code.
-3. When you're done, push your solution to a repo under your personal github account and send us an email linking us to it.
+3. When you're done, push your solution to a repo under your personal github account and send us an email at work-at [at] rainway.com linking us to it.
 4. Include instructions for how to build (if appropriate) and run your solution.
 5. If you have any more questions before or while crafting your solution, don't hesitate to get in touch with us.
 6. Have fun!
