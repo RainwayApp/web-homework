@@ -12,7 +12,7 @@ In this assignment, you will create a small web applet that displays the state o
 
 The applet UI consists of only one view, containing: a URL input field, a "Connect" button, a "Disconnect" button, and a game controller display widget.
 
-The **URL input field** specifies the WebSocket server URL to connect to. Its value defaults to `wss://homework.rain.gg:8765`, which is the URL to our gamepad data streaming server.
+The **URL input field** specifies the WebSocket server URL to connect to.
 
 When the user clicks the **"Connect" button**, the app connects to the WebSocket server specified in the URL input field, and begins displaying the received gamepad data on the widget.
 
